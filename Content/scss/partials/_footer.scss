@@ -1,0 +1,128 @@
+// Media-Queries Template
+
+/* Mobile Layout: 480px and below. */
+/* =============================================================================
+Footer/Section Layout
+========================================================================== */
+
+span.copyright {font-size: .65em; color: #bbb; line-height: 1.3em;}
+
+.wrapper-footer-inner {
+    background: #eee;
+    padding:20px;
+    /*background: url('/images/home-footer-bg.jpg') top center;
+    background-size:  cover;
+    background-repeat: no-repeat;*/
+}
+
+.wrapper-footer-inner ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-footer-inner .icon {margin: 2px 0; padding-left: 33px; line-height: 2.23em;}
+
+/*-------------------------------*/
+/* The headers */
+
+.wrapper-footer-inner p {
+    background: #ddd;
+    padding: 10px 9px 8px;
+    width: 99%;
+
+    text-align:left;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#777;
+
+    text-transform: uppercase;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+
+    margin-bottom: 20px;
+    opacity:0.9;
+    cursor:default;
+}
+
+.wrapper-footer-inner div a {
+    padding-left: 5px;
+}
+
+.wrapper-footer-inner > ul > li ul {
+    padding: 0 0 20px;
+}
+
+/*-------------------------------*/
+/* The links */
+.wrapper-footer-inner > ul > li ul li {
+    margin: 1px 0;
+    padding: 3px 5px;
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 100%;
+    color: #777;
+}
+
+/*
+.wrapper-footer-inner > ul > li ul li a {
+    text-decoration: none !important;
+    color:#333 !important;
+}
+
+.wrapper-footer-inner > ul > li ul li a:hover {
+    color:#7d8691 !important;
+}
+*/
+
+/* Tablet Layout: 501px past 768px(portrait mode) to 1024px(landscape mode). Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 501px) {
+/* =============================================================================
+Footer/Section Layout
+========================================================================== */
+
+/*-------------------------------*/
+/* The columns */
+
+.wrapper-footer-inner > ul {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1px;
+}
+
+/* The four columns of links */
+.wrapper-footer-inner ul > li {
+    width:25%;
+    float:left;
+}
+
+/*-------------------------------*/
+/* The headers */
+
+.wrapper-footer-inner p {
+    background: none;
+    text-align:left;
+}
+
+.wrapper-footer-inner > ul > li:hover p {
+    opacity:1;
+}
+
+/*-------------------------------*/
+/* The links */
+.wrapper-footer-inner > ul > li ul li {
+    font-size: .8em;
+}
+
+.wrapper-footer-inner > ul > li ul li a {
+    font-size: 1.1em;
+}
+
+}
+
+/* Desktop Layout: 1025px to max of 1920px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1025px) {
+
+    
+
+}
